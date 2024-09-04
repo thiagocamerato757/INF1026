@@ -89,7 +89,7 @@ def exibeDic(dicio:dict)->None:
 # Escreva abaixo a solução da questão 2A):
 def criaDicPercentuaisImpostos(tipos_produtos_impostos:tuple)->dict:
     dicionario:dict = {}
-    for tipo_produto, tipo_imposto, percentual in tipos_produtos_impostos:
+    for tipo_produto,tipo_imposto, percentual in tipos_produtos_impostos:
         dicionario[(tipo_produto, tipo_imposto)] = percentual
     return dicionario
 

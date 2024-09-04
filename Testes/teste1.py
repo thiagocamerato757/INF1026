@@ -61,7 +61,7 @@ def avaliaPercAprovacao(turma: tuple) -> tuple:
 
 # Escreva no espaço a seguir a função avaliaTodasAsTurmas:
 def avaliaTodasAsTurmas(turmas: tuple) -> tuple:
-    result: list[str] = []
+    result: list[tuple] = []
     for turma in turmas:
         armazena: tuple = avaliaPercAprovacao(turma)
         result.append(armazena)
